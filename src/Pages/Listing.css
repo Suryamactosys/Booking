@@ -1,0 +1,279 @@
+.css-ahj2mt-MuiTypography-root {
+    margin: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    padding-top: 10px;
+}
+
+.sizeSm.commonCheckbox .box {
+    height: 18px;
+    width: 18px;
+}
+
+.timingOptionOuter {
+    margin: 0;
+    width: 400px;
+}
+
+.timingOptionOuter label {
+    margin: 0;
+    width: 100%;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+.timingOption {
+    width: 100%;
+    border: 1px solid transparent;
+    position: relative;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.priceSection.priceLockPersuasionExists {
+    margin-bottom: 20px;
+}
+
+.priceSection {
+    align-items: flex-start;
+    display: flex;
+}
+
+.priceSection {
+    position: relative;
+    top: 10px;
+}
+
+.makeFlex.top {
+    align-items: flex-start;
+}
+
+html[dir='ltr'] .textRight {
+    text-align: right;
+}
+
+.darkText {
+    color: #4a4a4a;
+}
+
+.ViewFareBtn {
+    border: 1px solid #008cff;
+    border-radius: 96px;
+    color: #008cff;
+    background: #daebff;
+    font-weight: 700;
+    font-size: calc(var(--font-scale, 1)*13px);
+    position: relative;
+    padding: 0 8px;
+    height: 31px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 120px;
+}
+
+.lockPriceTrigger {
+    background: #e9f3ff;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+}
+
+.blackFont {
+    font-weight: 900;
+}
+
+.linkText {
+    all: unset;
+    color: #0091ff;
+    cursor: pointer;
+}
+
+.appendTop10 {
+    margin-top: 10px !important;
+}
+
+.appendBottom10 {
+    margin-bottom: 10px;
+}
+
+.alertMsg {
+    background-color: #ffd3d4;
+    color: #000;
+    font-size: calc(var(--font-scale, 1)*12px);
+    text-align: center;
+    padding: 3px 15px;
+}
+
+/* {
+           background-image: url(https://imgak.mmtcdn.com/flights/assets/media/dt/common/icons/AI.png?v=15);
+        } */
+
+.arln-logo,
+.multiairline {
+    width: 65px;
+    height: 32px;
+    display: block;
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+}
+
+
+/* sidebar */
+
+.filterWrapper {
+    box-shadow: 0 3px 30px 0 rgba(0, 0, 0, .1);
+}
+
+.filterWrapper>.filtersOuter {
+    padding: 12px 15px;
+}
+
+.filtersOuter {
+    width: 100%;
+}
+
+.filtersOuter {
+    background: #fff;
+}
+
+.appendBottom15 {
+    margin-bottom: 15px;
+}
+
+.filtersHeading {
+    font-size: calc(var(--font-scale, 1)*16px);
+    font-weight: 900;
+}
+
+.checkboxContainer {
+    cursor: pointer;
+    display: flex;
+}
+
+.commonCheckbox {
+    display: flex;
+    position: relative;
+}
+
+.clusterTabsHead {
+    border: 1px solid #e2e2e2;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.makeFlex {
+    display: flex;
+}
+
+.appendBottom20 {
+    margin-bottom: 20px;
+}
+
+.appendTop20 {
+    margin-top: 20px;
+}
+
+.clusterTabHeadList.active {
+    background-color: #eaf5ff;
+}
+
+.clusterTabHeadList {
+    padding: 10px 10px;
+    border-right: 1px solid #e2e2e2;
+    flex: 1;
+    cursor: pointer;
+    height: 90px;
+    position: relative;
+    gap: 20px;
+}
+
+.clusterTabHeadList.active .clusterTabIcon {
+    background-color: #0091ff;
+}
+
+html[dir='ltr'] .appendRight10 {
+    margin-right: 10px;
+}
+
+.clusterTabIcon {
+    width: 35px;
+    height: 35px;
+    background-color: #d5d5d5;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* {
+    background-image: url(https://imgak.mmtcdn.com/flights/assets/media/dt/listing/Cheapest.png);
+} */
+
+.bgProperties {
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: inline-block;
+    background-size: contain;
+}
+
+.bgProperties {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    background-size: contain;
+}
+
+.icon32 {
+    width: 32px;
+    height: 32px;
+}
+
+.blackText {
+    color: #000000;
+}
+
+.appendBottom5 {
+    margin-bottom: 5px;
+}
+
+.listingCard {
+    padding: 16px 14px;
+    border-top: 8px solid #e5eef5;
+    background: #fff;
+    border-radius: 2px;
+    position: relative;
+    padding: 20px;
+}
+
+.makeFlex.spaceBetween {
+    justify-content: space-between;
+}
+
+.makeFlex.hrtlCenter {
+    align-items: center;
+}
+
+.clusterContent .airline-info-wrapper,
+.simpleow .airline-info-wrapper,
+.split_combinedmc .airline-info-wrapper {
+    width: 170px;
+}
+
+.darkText {
+    color: #4a4a4a;
+}

@@ -1,0 +1,119 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+/* navbar */
+
+/* .widgetSection1 {
+  width: 950px;
+  margin: auto;
+  position: relative;
+  z-index: 10;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav {
+  flex-direction: row;
+  gap: 32px;
+}
+
+.chHeaderWrapper.navOnly nav {
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .1);
+  padding: 8px 30px;
+  position: absolute;
+}
+
+.navOnly .headerIcons {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-width: 72px;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-sm,
+.navbar>.container-md,
+.navbar>.container-lg,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.navOnly .chHeaderContainer nav {
+  width: 100%;
+  position: absolute;
+} */
+
+/* navbar end */
+
+
+/* .MuiAutocomplete-hasPopupIcon.css-1wuilmg-MuiAutocomplete-root .MuiOutlinedInput-root,
+.MuiAutocomplete-hasClearIcon.css-1wuilmg-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding-right: 65px;
+  width: 265px;
+  height: 120px;
+} */
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root {
+  padding-right: 65px;
+  width: 265px;
+  height: 40px;
+}
+
+/* .css-1g2io98 {
+  border: 1px solid black;
+  padding: 7px;
+  height: 110px;
+} */
+
+/* .css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  height: 40px;
+} */
+
+/* .css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0.00938em;
+} */
+
+.css-ahj2mt-MuiTypography-root {
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  padding-top: 0px;
+}
+
+
+.css-vrzb58-MuiGrid-root {
+  max-width: 25%;
+  height: 110px;
+}
+
+/* .css-1q93duj-MuiContainer-root {
+  padding-left: -24px;
+  padding-right: -24px;
+} */

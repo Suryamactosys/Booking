@@ -1,0 +1,212 @@
+/* .fsw .fsw_inner.returnPersuasion:nth-child(1) {
+    z-index: 5 !important;
+}
+
+.fsw .fsw_inner {
+    width: 100%;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: solid 1px #e7e7e7;
+    position: relative;
+}
+
+html[dir='ltr'] .flt_fsw_inputBox.searchCity {
+    width: 300px;
+    height: 112px;
+    border-right: solid 1px #e7e7e7;
+}
+
+.fltWidgetSection .fsw .flt_fsw_inputBox {
+    height: 112px;
+    border-radius: 0;
+    margin-right: 0;
+    transition: all 0.2s linear;
+}
+
+.fsw .flt_fsw_inputBox {
+    background: rgba(255, 255, 255, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+html[dir='ltr'] .fltWidgetSection .fsw .flt_fsw_inputBox label {
+    padding: 10px 19px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+*,
+html {
+    box-sizing: border-box;
+}
+
+.makeRelative {
+    position: relative;
+}
+
+.truncate {
+    width: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+}
+
+html[dir='ltr'] .flt_fsw_inputBox input {
+    font-family: 'Mukta', 'Lato', sans-serif;
+}
+
+.flt_fsw_inputBox .lineHeight36 {
+    line-height: 36px;
+}
+
+.fsw .fsw_inputField {
+    border: 0;
+    outline: 0;
+    background: none;
+    min-width: 140px;
+    max-height: 36px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.latoBlack {
+    font-weight: 900;
+}
+
+.font30 {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+html[dir='ltr'] .fltSwipCircle {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    margin-left: -22px;
+    border-radius: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.webp .flightsSprite {
+    background-image: url(//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@21x.webp);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 200px 650px;
+    font-size: 0px;
+    flex-shrink: 0;
+}
+
+.fltSwipIcon {
+    width: 15px;
+    height: 11px;
+    background-position: -149px -111px;
+}
+
+html[dir='ltr'] .fltWidgetSection .fsw .flt_fsw_inputBox.searchToCity {
+    width: 300px;
+    height: 112px;
+    border-right: solid 1px #e7e7e7;
+    padding-left: 20px;
+    margin-left: -18px;
+}
+
+.fltWidgetSection .fsw .flt_fsw_inputBox {
+    height: 112px;
+    border-radius: 0;
+    margin-right: 0;
+    transition: all 0.2s linear;
+}
+
+.fsw .flt_fsw_inputBox {
+    background: rgba(255, 255, 255, 0.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    position: relative;
+}
+
+html[dir='ltr'] .fltWidgetSection .fsw .flt_fsw_inputBox label {
+    padding: 10px 19px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.fsw .lbl_input {
+    text-transform: capitalize;
+}
+
+.appendBottom10 {
+    margin-bottom: 10px;
+}
+
+
+html[dir='ltr'] .flt_fsw_inputBox input {
+    font-family: 'Mukta', 'Lato', sans-serif;
+}
+
+.flt_fsw_inputBox .lineHeight36 {
+    line-height: 36px;
+}
+
+.fsw .fsw_inputField {
+    border: 0;
+    outline: 0;
+    background: none;
+    min-width: 140px;
+    max-height: 36px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.latoBlack {
+    font-weight: 900;
+}
+
+.makeRelative {
+    position: relative;
+} */
+
+.swipCircle {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 30px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    cursor: pointer;
+    position: absolute;
+    top: 140px;
+    left: 362px;
+}
