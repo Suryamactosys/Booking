@@ -98,7 +98,7 @@ const SearchBox = () => {
       </Box>
       <Test />
       <YourComponent />
-      <Box sx={{ marginTop: "35px", marginLeft: "460px" }}>
+      <Box sx={{ marginTop: "5px", marginLeft: "460px" }}>
         <Button
           variant="contained"
           size="large"

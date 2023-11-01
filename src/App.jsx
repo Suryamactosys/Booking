@@ -5,6 +5,7 @@ import Header from "./Component/Header/Header";
 import Login from "./Pages/Login";
 import Mybiz from "./Pages/Mybiz";
 import Page404 from "./Component/SearchBox/Page404";
+import Test from "./Pages/Test";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/test" element={<Test />} />
         <Route path="/mybiz" element={<Mybiz />} />
         <Route path="/flightfilters" element={<FlightFilters />} />
         <Route path="/*" element={<Page404 />} />

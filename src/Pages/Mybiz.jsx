@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import {
   Button,
   TextField,
@@ -11,9 +11,9 @@ import {
   Box,
   Dialog,
 } from "@mui/material";
-import FlightIcon from "@mui/icons-material/Flight";
-import HotelIcon from "@mui/icons-material/Hotel";
-import TrainIcon from "@mui/icons-material/Train";
+// import FlightIcon from "@mui/icons-material/Flight";
+// import HotelIcon from "@mui/icons-material/Hotel";
+// import TrainIcon from "@mui/icons-material/Train";
 import GoogleButton from "react-google-button";
 
 const Mybiz = () => {
@@ -27,44 +27,52 @@ const Mybiz = () => {
     setActiveTab(newValue);
   };
 
-  const [activeSlide, setActiveSlide] = useState(0);
+  // const [activeSlide, setActiveSlide] = useState(0);
 
-  const slides = [
-    {
-      title: "Lock Flight Prices & Pay Later",
-      icon: <FlightIcon className="loginPersuasionSlider whiteFlight" />,
-    },
-    {
-      title: "Book Hotels @ ₹0",
-      icon: <HotelIcon className="loginPersuasionSlider whiteHotel" />,
-    },
-    {
-      title: "Get 3X refund, if your waitlisted train doesn't get confirmed",
-      icon: <TrainIcon className="loginPersuasionSlider whiteTrain" />,
-    },
-  ];
+  // const slides = [
+  //   {
+  //     title: "Lock Flight Prices & Pay Later",
+  //     icon: <FlightIcon className="loginPersuasionSlider whiteFlight" />,
+  //   },
+  //   {
+  //     title: "Book Hotels @ ₹0",
+  //     icon: <HotelIcon className="loginPersuasionSlider whiteHotel" />,
+  //   },
+  //   {
+  //     title: "Get 3X refund, if your waitlisted train doesn't get confirmed",
+  //     icon: <TrainIcon className="loginPersuasionSlider whiteTrain" />,
+  //   },
+  // ];
 
-  const handlePrevSlide = () => {
-    setActiveSlide((prevSlide) =>
-      prevSlide === 0 ? slides.length - 1 : prevSlide - 1
-    );
-  };
+  // const handlePrevSlide = () => {
+  //   setActiveSlide((prevSlide) =>
+  //     prevSlide === 0 ? slides.length - 1 : prevSlide - 1
+  //   );
+  // };
 
-  const handleNextSlide = () => {
-    setActiveSlide((prevSlide) =>
-      prevSlide === slides.length - 1 ? 0 : prevSlide + 1
-    );
-  };
+  // const handleNextSlide = () => {
+  //   setActiveSlide((prevSlide) =>
+  //     prevSlide === slides.length - 1 ? 0 : prevSlide + 1
+  //   );
+  // };
 
   return (
     <>
       <Button onClick={handleOpen}>Open</Button>
-
       <Dialog
         open={open}
         onClose={handleClose}
         maxWidth="md"
         sx={{ paddingTop: "0px" }}>
+        {/* <Button
+          onClick={handleClose}
+          sx={{
+            backgroundColor: "blue",
+            color: "#fff",
+            textAlign: "right",
+          }}>
+          X
+        </Button> */} 
         <Box>
           <Grid
             container

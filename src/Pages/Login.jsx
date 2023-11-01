@@ -8,15 +8,15 @@ import {
   Link,
   Tab,
   Tabs,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
+  // List,
+  // ListItem,
+  // ListItemText,
+  // ListItemIcon,
   Box,
 } from "@mui/material";
-import FlightIcon from "@mui/icons-material/Flight";
-import HotelIcon from "@mui/icons-material/Hotel";
-import TrainIcon from "@mui/icons-material/Train";
+// import FlightIcon from "@mui/icons-material/Flight";
+// import HotelIcon from "@mui/icons-material/Hotel";
+// import TrainIcon from "@mui/icons-material/Train";
 import GoogleButton from "react-google-button";
 
 const Login = () => {
@@ -26,34 +26,34 @@ const Login = () => {
     setActiveTab(newValue);
   };
 
-  const [activeSlide, setActiveSlide] = useState(0);
+  // const [activeSlide, setActiveSlide] = useState(0);
 
-  const slides = [
-    {
-      title: "Lock Flight Prices & Pay Later",
-      icon: <FlightIcon className="loginPersuasionSlider whiteFlight" />,
-    },
-    {
-      title: "Book Hotels @ ₹0",
-      icon: <HotelIcon className="loginPersuasionSlider whiteHotel" />,
-    },
-    {
-      title: "Get 3X refund, if your waitlisted train doesn't get confirmed",
-      icon: <TrainIcon className="loginPersuasionSlider whiteTrain" />,
-    },
-  ];
+  // const slides = [
+  //   {
+  //     title: "Lock Flight Prices & Pay Later",
+  //     icon: <FlightIcon className="loginPersuasionSlider whiteFlight" />,
+  //   },
+  //   {
+  //     title: "Book Hotels @ ₹0",
+  //     icon: <HotelIcon className="loginPersuasionSlider whiteHotel" />,
+  //   },
+  //   {
+  //     title: "Get 3X refund, if your waitlisted train doesn't get confirmed",
+  //     icon: <TrainIcon className="loginPersuasionSlider whiteTrain" />,
+  //   },
+  // ];
 
-  const handlePrevSlide = () => {
-    setActiveSlide((prevSlide) =>
-      prevSlide === 0 ? slides.length - 1 : prevSlide - 1
-    );
-  };
+  // const handlePrevSlide = () => {
+  //   setActiveSlide((prevSlide) =>
+  //     prevSlide === 0 ? slides.length - 1 : prevSlide - 1
+  //   );
+  // };
 
-  const handleNextSlide = () => {
-    setActiveSlide((prevSlide) =>
-      prevSlide === slides.length - 1 ? 0 : prevSlide + 1
-    );
-  };
+  // const handleNextSlide = () => {
+  //   setActiveSlide((prevSlide) =>
+  //     prevSlide === slides.length - 1 ? 0 : prevSlide + 1
+  //   );
+  // };
 
   return (
     <Box style={{ paddingBottom: "50px", backgroundColor: "#0B2845" }}>
@@ -85,7 +85,7 @@ const Login = () => {
                       src="https://imgak.mmtcdn.com/pwa_v3/pwa_header_assets/loginPersuassionValley.jpg"
                       alt="img1"
                       style={{
-                        // height: "520px",
+                        height: "552px",
                         width: "380px",
                         borderRadius: "8px",
                       }}

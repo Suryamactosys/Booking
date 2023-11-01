@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
-// import robot from "../../assets/error.png";
+import robot from "../../assets/robot.png";
 
 const Page404 = () => {
   return (
@@ -8,10 +8,16 @@ const Page404 = () => {
       sx={{
         textAlign: "center",
         paddingTop: "100px",
-        backgroundImage: 'url("../../assets/error.png")',
+        // backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundImage: `url(${robot})`,
+        height: "560px",
       }}>
-      <Typography>This page not found</Typography>
-      <Link to="/"> Go to home page</Link>
+      <Typography variant="h4">This page not found</Typography>
+      <Link to="/">
+        {" "}
+        <Typography variant="h6">Go to home page</Typography>
+      </Link>
     </Box>
   );
 };

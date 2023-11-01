@@ -5,7 +5,7 @@ import { Flag } from "@mui/icons-material";
 import discount from "../../assets/Header/discount_68d1265618.svg";
 import mytrip from "../../assets/Header/mytrip.png";
 import bagtrip from "../../assets/Header/bagtrip.png";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Header = () => {
   // const [open, setOpen] = useState(false);
