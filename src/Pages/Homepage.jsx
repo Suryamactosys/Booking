@@ -23,7 +23,7 @@ function Homepage() {
             position={"absolute"}
             sx={{
               top: -60,
-              width: "100%",
+              width: "98%",
             }}>
             <CategoryBox />
           </Box>

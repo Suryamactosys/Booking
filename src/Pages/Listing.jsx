@@ -24,7 +24,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import { tabs } from "../Data";
 
 function FlightFilters() {
-  const [priceRange, setPriceRange] = React.useState([5293, 8600]);
+  const [priceRange, setPriceRange] = React.useState([4800, 10000]);
 
   const handleChange = (event, newValue) => {
     setPriceRange(newValue);
@@ -235,9 +235,9 @@ function FlightFilters() {
                   valueLabelDisplay="auto"
                   valueLabelFormat={(value) => `₹${value}`}
                   min={4800}
-                  max={7800}
+                  max={10000}
                   step={1}
-                  sx={{ width: "100%"}}
+                  sx={{ width: "100%" }}
                 />
                 <div className="makeFlex spaceBetween darkText">
                   <span>₹{priceRange[0]}</span>

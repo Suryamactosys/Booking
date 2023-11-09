@@ -239,7 +239,7 @@ import "./Test.css";
 import { Box, Grid, Typography } from "@mui/material";
 import AutocompleteBox from "./AutocompleteBox";
 import Demo from "./Demo";
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 import ReactDatePicker from "react-datepicker";
 import SyncAltIcon from "@mui/icons-material/SyncAlt";
 import Ram from "./Ram";
@@ -249,6 +249,7 @@ const Test = () => {
 
   const handleDepartureDateChange = (date) => {
     setDepartureDate(date);
+    console.log(departureDate);
   };
 
   const [returnDate, setReturnDate] = useState("");
@@ -256,13 +257,29 @@ const Test = () => {
   const handleReturnDateChange = (date) => {
     setReturnDate(date);
     console.log(returnDate);
-    const [start, end] = date;
-    setStartDate(start);
-    setEndDate(end);
+    // const [start, end] = date;
+    // setStartDate(start);
+    // setEndDate(end);
   };
 
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(null);
+  // const [startDate, setStartDate] = useState(new Date());
+  // const [endDate, setEndDate] = useState(null);
+
+  // eslint-disable-next-line react/display-name
+  const [departure, setDeparture] = useState();
+  const handleClick = (event) => {
+    setDeparture(event.currentTarget);
+  };
+  const ExampleCustomInput = forwardRef(({ value, onClick }, ref) => (
+    <button
+      className="example-custom-input"
+      style={{ width: "100%", height: "100%" }}
+      onClick={onClick}
+      ref={ref}>
+      {value}
+    </button>
+  ));
+
   return (
     <Box>
       <Grid container style={{ borderRadius: "8px" }}>
@@ -293,20 +310,27 @@ const Test = () => {
           <Demo label={"to"} />
         </Grid>
         <Grid
+          onClick={handleClick}
           xs={2}
           sx={{
             border: "1px solid #010b3317",
             padding: "10px",
+            cursor: "pointer",
+            width: "100%",
+            "&:hover": {
+              bgcolor: "#fff",
+            },
           }}>
           <span style={{ fontSize: "18px" }}>Departure</span>
           <ReactDatePicker
-            selected={departureDate}
+            // selected={departureDate}
             onChange={handleDepartureDateChange}
-            dateFormat="EEEE, d MMM yyyy"
-            calendarClassName="rasta-stripes"
-            placeholderText="Select a departure date"
-            startDate={startDate}
-            endDate={endDate}
+            // dateFormat="EEEE, d MMM yyyy"
+            // calendarClassName="rasta-stripes"
+            // placeholderText="Select a departure date"
+            // startDate={startDate}
+            // endDate={endDate}
+            customInput={<ExampleCustomInput />}
           />
           {departureDate && (
             <>
@@ -337,11 +361,12 @@ const Test = () => {
           }}>
           <span style={{ fontSize: "18px" }}>Return</span>
           <ReactDatePicker
-            selected={returnDate}
+            // selected={returnDate}
             onChange={handleReturnDateChange}
-            dateFormat="EEEE, d MMM yyyy"
-            readOnly=""
-            placeholderText="Select a return date"
+            // dateFormat="EEEE, d MMM yyyy"
+            // readOnly=""
+            // placeholderText="Select a return date"
+            customInput={<ExampleCustomInput />}
           />
           {returnDate && (
             <>

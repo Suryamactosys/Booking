@@ -15,6 +15,7 @@ import {
 // import HotelIcon from "@mui/icons-material/Hotel";
 // import TrainIcon from "@mui/icons-material/Train";
 import GoogleButton from "react-google-button";
+import { FcGoogle } from "react-icons/fc";
 
 const Mybiz = () => {
   const [open, setOpen] = useState(false);
@@ -56,6 +57,13 @@ const Mybiz = () => {
   //   );
   // };
 
+  // const [data, setData] = useState();
+
+  // const handelSubmit = (e) => {
+  //   e.prevent.default();
+  //   console.log(data);
+  // };
+
   return (
     <>
       <Button onClick={handleOpen}>Open</Button>
@@ -72,7 +80,7 @@ const Mybiz = () => {
             textAlign: "right",
           }}>
           X
-        </Button> */} 
+        </Button> */}
         <Box>
           <Grid
             container
@@ -142,7 +150,8 @@ const Mybiz = () => {
                       Or Login/Signup With
                     </Typography>
                     <Box style={{ textAlign: "center", marginTop: "16px" }}>
-                      <GoogleButton />
+                      {/* <GoogleButton /> */}
+                      <FcGoogle />
                     </Box>
                   </Box>
                 )}

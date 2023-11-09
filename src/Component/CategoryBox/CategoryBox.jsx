@@ -16,7 +16,7 @@ const CategoryBox = () => {
         display={"flex"}
         alignItems={"flex-end"}
         // maxWidth={"lg"}
-        width={920}
+        // width={920}
         height={90}
         bgcolor={"#fff"}
         borderRadius={2}

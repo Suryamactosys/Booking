@@ -15,7 +15,6 @@ const Page404 = () => {
       }}>
       <Typography variant="h4">This page not found</Typography>
       <Link to="/">
-        {" "}
         <Typography variant="h6">Go to home page</Typography>
       </Link>
     </Box>

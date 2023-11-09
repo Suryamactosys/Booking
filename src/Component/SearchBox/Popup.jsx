@@ -168,7 +168,7 @@ const Popup = () => {
           </ul>
         </Box>
         <Box style={{ marginLeft: "-130px" }}>
-          {/* <span className="font12 latoBold">Trending Searches:</span> */}
+          {/* <span>Trending Searches:</span> */}
           <Typography style={{ padding: "0px" }}></Typography>
           <List
             style={{
